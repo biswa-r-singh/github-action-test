@@ -2,7 +2,7 @@ name: shell commands
 on: [push]
 jobs:
   run-shell-command:
-    runs-on: ubuntu-latest
+    runs-on: test-pod
     steps:
       - name: checkout
         uses: actions/checkout@v1
